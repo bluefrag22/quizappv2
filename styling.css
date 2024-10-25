@@ -58,10 +58,13 @@ body{
 
 .homesection button{
     border: none;
+
     border-radius: 15px;
+    text-align: center;
     background-color: #003366;
     color: white;
-    width: 261px;
+    width: 100%;
+    max-width: 200px;
     height: 64px;
     font-size:30px;
     margin: 0px 15% 0px;
@@ -128,11 +131,13 @@ body{
 .congrat{
     text-transform: uppercase;
     color: #020024;
-    margin: 150px 120px 30px;
+    margin: 100px 0px 30px;
+    text-align: center;
 }
 
 .message{
     background-color: #003366;
+    max-width: 90%;
     width: 300px;
     height: 287px;
     border-radius: 15px;
@@ -157,18 +162,22 @@ body{
 
 
 .buttoncontainer{
-    margin: 60px 35px;
-    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    max-width: 100%;
+    /* width: 300px; */
 }
 .result button{
-    margin-right: 10px;
+    margin-left: 10px;
     border: none;
     border-radius: 10px;
     background-color: #003366;
     color: white;
+    max-width: 120px;
     width: 145px;
     height: 64px;
     font-size:15px; 
+    text-transform: uppercase;
 }
 
 /* funtions */
