@@ -10,7 +10,7 @@ body{
 
 /* homesection */
 .homesection{
-    max-height: 90vh;
+    max-height: 90%;
 }
 .app{
     background-color: #EBE5E5;
@@ -20,7 +20,7 @@ body{
     padding: 10px;
     box-shadow: -2px 14px 49px -32px rgba(8,20,36,0.21);
     border-radius: 15px;
-    height: 90vh;
+    max-height: 90%;
 }
 
 
@@ -47,7 +47,7 @@ body{
 .img h3{
     font-size: 30px;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    text-align: center;
     rotate: -10.01deg;
 }
 
@@ -91,7 +91,7 @@ body{
 
 .questionarea{
     background-color: white;
-    height: 60vh;
+    max-height: 60%;
     border-radius: 15px;
     margin: 15px;
     padding: 10px;

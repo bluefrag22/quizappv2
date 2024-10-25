@@ -97,7 +97,7 @@ console.log(currentQuestionIndex);
 // question tracker 
 function pagetracker(){
     let questiontrackernum = currentQuestionIndex +1
-    tracker.innerHTML = "0"+questiontrackernum +  "/ 05"
+    tracker.innerHTML = "0" + questiontrackernum +  "/ 05"
 }
 
 // highscore tracker 
@@ -197,11 +197,10 @@ function answerselected(){
 function nextbutton(){
     console.log(score);
     btnclick();
-     pagetracker()
      currentQuestionIndex++;
     if (currentQuestionIndex < quizData.length)
         {
-        
+            pagetracker()
             loadquestions();
         }else{
             questionpage.classList.add("hide");
@@ -288,13 +287,11 @@ replaybtn.addEventListener('click', ()=>{
     {  
         resultpage.classList.add("hide");
         currentQuestionIndex= 0;
-        questiontrackernum =1
+        pagetracker();
         questionpage.classList.remove("hide");
         startquiz();
         
     }
-    
-    
     btnclick();
     console.log(replaybtn);
 })
